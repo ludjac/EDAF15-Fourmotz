@@ -46,45 +46,53 @@ def four_motz(A, c, el_var):
 	T = N.array(sorted(T, key=lambda x: sort_value(x[0])))
 
 	# ---- Set constants ---- #
-	s, r = A.shape
+	s, r = T.shape
 	
 	n_pos = (T[:,0]>0).nonzero()[0].size
 	n_neg = n_pos + (T[:,0]<0).nonzero()[0].size
-	#n_zer = (T[:,0]==0).nonzero()[0].size
+	#n_zer = n_neg + (T[:,0]==0).nonzero()[0].size
 
 	# ---- Normalize on first column ---- #
 	T = N.array(map(row_divide, T))
+	
 	print T
-	if 0:
-		print T
-		print n_pos
-		print T[0:n_pos, :]
-		print n_neg
-		print T[n_pos:n_neg, :]
-		print s
-		print T[n_neg:s, :]
 
 	# s - inequalities after elimination
 	s = s - n_neg + n_pos*(n_neg - n_pos)
+	r = r - 1
 
 
 	A = N.zeros((s, r))
+	print n_pos, n_neg
+
+#	print T[n_neg:, :]
+
+#	print A
 	for i in xrange(n_pos):
-#		print i*(n_neg - n_pos)
-#		print (i+1)*(n_neg - n_pos)
-#		print N.ones([n_pos, n_pos])
-#		print T[i,1:]*N.ones([n_pos, n_pos])
-#		print T[n_neg-2:-1,1:]#*N.ones([n_pos, n_pos])
-		A[i*(n_neg - n_pos):(i+1)*(n_neg - n_pos), :] = T[i,1:]*N.ones([n_pos, n_pos])+T[n_neg-2:-1,1:]
+		if 0:
+			print i
+			print n_neg-n_pos
+			print A[i*(n_neg - n_pos):(i+1)*(n_neg - n_pos), :]
+			print ""
+			print T[i, 1:]*N.ones([n_neg-n_pos, n_pos])
+			print ""
+			print T[n_pos:n_neg,1:]
+		A[i*(n_neg - n_pos):(i+1)*(n_neg - n_pos), :] = T[i,1:]*N.ones([n_neg-n_pos, r])+T[n_pos:n_neg,1:]
+
+
+	A[n_pos*(n_neg - n_pos):, :] = T[n_neg:, 1:]
+
+
+	A = N.array(sorted(A, key=lambda x: sort_value(x[0])))
 
 	print A
+	print N.array(map(lambda x: x/x[0], A))
+	print N.array(sorted(A, key=lambda x: x[0]))
 
-#	print T
-	
 if __name__ == '__main__':
-	A = N.array([[2.0, -11.0], [-3.0, 2.0], [1.0, 2.0], [-2.0, 1.0], [0.0, 1.0]])
+	A = N.array([[2.0, -11.0], [-3.0, 2.0], [1.0, 2.0], [-2.0, 1.0],[-4.0, 3.0], [0.0, 1.0], [0.0, 2.0]])
 
-	b = N.array([[1.0],[1.0],[1.0],[1.0], [1.0]])
+	b = N.array([[1.0],[1.0],[1.0],[1.0], [1.0], [1.0], [1.0]])
 
 
 	four_motz(A, b, 2)# Fourmotz PYTHON

@@ -47,6 +47,7 @@ if n > nvar,
 	%A = reduce_rows(A);		% reduce size by deleting redundant entries
 					% my own idea
 	A	
+    A(:, 1)./A(:,2)
 	b = A(:,n);			% extract vector b
 	A = A(:,1:n-1);			% reduce to the relevant A
 	
@@ -56,5 +57,5 @@ elseif n > 0,	% reduction allowed, but no (further) fourier-motzkin elimination:
 						% entries, my own idea
 
 	b = temp(:,n+1);			% extract vector b
-	A = temp(:,1:n);			% reduce to the relevant A
+	A = temp(:,1:n)			% reduce to the relevant A
 end
