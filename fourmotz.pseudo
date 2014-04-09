@@ -1,0 +1,24 @@
+	To eliminate x_r
+	1. Copy to temp variables
+		r, s = m, n
+
+	2. Arrange 	* Positive 	(sum = npos)
+				* Negative 	(sum = nneg)
+				* Zero		(sum = nzer)
+
+	3. Normalize x_r for all rows
+	4. 
+	if nneg>0:
+		b(_x_) = max(Negative ineq's)
+	else:
+		b(_x_) = -Inf
+	if npos>0:
+		B(_x_) = min(Positive ineq's)
+	else:
+		B(_x_) = Inf
+	5.  
+	if r>1: GOTO 6
+	else:	
+		if: b>B || (b<0 && B>0) NO SOLUTION
+		else: SOLUTION is: b<x<B
+	6. 

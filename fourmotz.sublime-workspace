@@ -1,0 +1,948 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"lSonic",
+				"LSonic"
+			],
+			[
+				"se",
+				"setPower"
+			],
+			[
+				"lS",
+				"lSonicRange"
+			],
+			[
+				"C",
+				"C"
+			],
+			[
+				"powe",
+				"powerLift"
+			],
+			[
+				"Se",
+				"SensorPort"
+			],
+			[
+				"for",
+				"forward"
+			],
+			[
+				"lM",
+				"lMean-rMean"
+			],
+			[
+				"So",
+				"SonicR"
+			],
+			[
+				"sON",
+				"SonicR"
+			],
+			[
+				"get",
+				"getRMean"
+			],
+			[
+				"im",
+				"import"
+			],
+			[
+				"CH",
+				"CHARGE"
+			],
+			[
+				"fo",
+				"forward"
+			],
+			[
+				"e",
+				"else"
+			],
+			[
+				"el",
+				"elif	else if"
+			],
+			[
+				"sw",
+				"switch"
+			],
+			[
+				"f",
+				"f"
+			],
+			[
+				"pr",
+				"print_2d"
+			],
+			[
+				"re",
+				"lp_rest2"
+			],
+			[
+				"ini",
+				"initate_grid"
+			],
+			[
+				"end",
+				"endif"
+			],
+			[
+				"con",
+				"conv2"
+			],
+			[
+				"c",
+				"c"
+			],
+			[
+				"p",
+				"printf	printf …"
+			],
+			[
+				"g",
+				"g"
+			],
+			[
+				"bc",
+				"bc0"
+			],
+			[
+				"temp",
+				"temp1"
+			],
+			[
+				"n",
+				"n"
+			],
+			[
+				"temP",
+				"temp1"
+			],
+			[
+				"N",
+				"N"
+			],
+			[
+				"m",
+				"m"
+			],
+			[
+				"pt",
+				"pt_org"
+			],
+			[
+				"te",
+				"temp1"
+			],
+			[
+				"rf",
+				"rf"
+			],
+			[
+				"col",
+				"col"
+			],
+			[
+				"pt_",
+				"pt_org"
+			],
+			[
+				"p_",
+				"pt_dest"
+			],
+			[
+				"ind",
+				"ind"
+			],
+			[
+				"print_",
+				"print_rf_matrix"
+			],
+			[
+				"grid",
+				"grid"
+			],
+			[
+				"pri",
+				"print_mem"
+			],
+			[
+				"lef",
+				"leftSonicRange"
+			],
+			[
+				"Search",
+				"Searching"
+			],
+			[
+				"ri",
+				"rightSonicRange"
+			],
+			[
+				"le",
+				"leftSonicRange"
+			],
+			[
+				"print",
+				"print_mem"
+			],
+			[
+				"k",
+				"k"
+			],
+			[
+				"mg",
+				"mg_1d_MATLAB_gateway"
+			],
+			[
+				"mxP",
+				"mexPrintf"
+			],
+			[
+				"de",
+				"debug"
+			],
+			[
+				"log",
+				"log2"
+			],
+			[
+				"mex",
+				"mexPrintf"
+			],
+			[
+				"mxge",
+				"mxGetPr"
+			],
+			[
+				"ph",
+				"plhs"
+			],
+			[
+				"in",
+				"include"
+			],
+			[
+				"v",
+				"v"
+			],
+			[
+				"po",
+				"pow_t"
+			],
+			[
+				"prin",
+				"print_my_grid"
+			],
+			[
+				"u",
+				"us_l"
+			],
+			[
+				"Mo",
+				"Motor"
+			],
+			[
+				"A",
+				"A"
+			],
+			[
+				"Moto",
+				"Motor"
+			],
+			[
+				"m1",
+				"m1"
+			],
+			[
+				"th",
+				"throws"
+			],
+			[
+				"set",
+				"setSpeed"
+			],
+			[
+				"m2",
+				"m2_reg"
+			],
+			[
+				"NXT",
+				"NXTRegulatedMotor"
+			],
+			[
+				"Motor",
+				"MotorPort"
+			],
+			[
+				"NX",
+				"NXTRegulatedMotor"
+			],
+			[
+				"B",
+				"B"
+			],
+			[
+				"l",
+				"l"
+			],
+			[
+				"to",
+				"toString"
+			],
+			[
+				"Fea",
+				"RangeFeatureDetector"
+			],
+			[
+				"ma",
+				"max_distance"
+			],
+			[
+				"data",
+				"data_t"
+			],
+			[
+				"g_",
+				"g_out-g"
+			],
+			[
+				"int",
+				"int"
+			],
+			[
+				"nx",
+				"nxt_line"
+			],
+			[
+				"a",
+				"abs"
+			],
+			[
+				"nume",
+				"number_2"
+			],
+			[
+				"o",
+				"out"
+			],
+			[
+				"inde",
+				"index_max"
+			],
+			[
+				"r",
+				"r_speed"
+			],
+			[
+				"d",
+				"drawString"
+			],
+			[
+				"line",
+				"lineBlack"
+			],
+			[
+				"stop",
+				"stopMotors"
+			],
+			[
+				"lo",
+				"logistic"
+			],
+			[
+				"__",
+				"__call__"
+			],
+			[
+				"AND",
+				"AND_input"
+			],
+			[
+				"ANd",
+				"AND_output"
+			],
+			[
+				"AN",
+				"AND_input"
+			],
+			[
+				"inp",
+				"inp"
+			],
+			[
+				"AND_",
+				"AND_input"
+			],
+			[
+				"neu",
+				"neuron"
+			],
+			[
+				"net",
+				"net_size"
+			],
+			[
+				"neur",
+				"neur_size"
+			],
+			[
+				"w",
+				"weights"
+			],
+			[
+				"sen",
+				"sentences"
+			],
+			[
+				"res",
+				"restrict_length"
+			],
+			[
+				"mos",
+				"most_freq_tag"
+			],
+			[
+				"base",
+				"baseprob"
+			],
+			[
+				"train",
+				"train_corpus"
+			],
+			[
+				"POS",
+				"POS_list"
+			],
+			[
+				"un",
+				"unique_tags"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "# Fourmotz PYTHON\nimport numpy as N\n\ndef \n\ndef fourmotz(A, c):\n	\"\"\"\n\n	\"\"\"\n	assert type(A) is N.ndarray\n	assert type(c) is N.ndarray\n\n	r, s = A.shape\n	T = N.hstack([A, c])\n	print T\n	# Eliminating first column variable\n	T = N.array(map(lambda row: row/row[0], T))\n	print T\n	#print T[T[:,0].argsort(), :]\n	#	\n	# print sorted([t] for t in T,  key=lambda x: x[0])\n	#	a = sorted(T, key=lambda x: x[0])\n	#	print a\n\n	pass\n\nif __name__ == '__main__':\n	A = N.array([[2.0, -11.0], [-3.0, 2.0], [1.0, 2.0], [0.0, 0.0]])\n	fourmotz(A, A)",
+			"file": "python/fourmotz.py",
+			"file_size": 517,
+			"file_write_time": 1395690184000000,
+			"settings":
+			{
+				"buffer_size": 523,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "def fourmotz(A, c):			# Ax <= c\n#	1. Copy to temp variables\nr, s = m, n\nt, q = A, c\n#	2. Sort & count according to eliminiation variable (r) column \nt, q = sort(t, t(:, r)) # >0, <0, =0\nn1 = sum(t(:,r)>0) # Number of pos ineq's\nn2 = sum(t(:,r)<0) # Number of neg ineq's\n#	3. Normalize x_r for all rows\nfor i in xrange(n2):\n	t(i, :) = t(i,:)/t(i, r)\n	q(i) = q(i)/T(i, r)\n\n#	4. Construct b_r & B_r\n\nif n2>n1:\n	b_r = max(sum())\nelse:\n	b(_x_) = -Inf\nif npos>0:\n	B(_x_) = min(Positive ineq's)\nelse:\n	B(_x_) = Inf\n5.  \nif r>1: GOTO 6\nelse:	\n	if: b>B || (b<0 && B>0) NO SOLUTION\n	else: SOLUTION is: b<x<B\n6. ",
+			"file": "fourmotz.pseudo",
+			"file_size": 421,
+			"file_write_time": 1395404079000000,
+			"settings":
+			{
+				"buffer_size": 601,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "MATLAB/fourmotz.m",
+			"settings":
+			{
+				"buffer_size": 2318,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "MATLAB/reduce_rows.m",
+			"settings":
+			{
+				"buffer_size": 2677,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 352.0,
+		"selected_items":
+		[
+			[
+				"Packa",
+				"Package Control: Remove Package"
+			],
+			[
+				"Dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"Enable",
+				"Package Control: Enable Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 293.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/ludjac/.config/sublime-text-2/Packages/IndentGuides/Indent Guides.sublime-settings",
+		"/home/ludjac/.config/sublime-text-2/Packages/IndentGuides/indent_guides.py",
+		"/home/ludjac/workspace/C/EDAF15/pseudocode.pc",
+		"/home/ludjac/.config/sublime-text-2/Packages/User/Package Control.sublime-settings",
+		"/home/ludjac/workspace/C/EDAF15/MATLAB/reduce_rows.m",
+		"/home/ludjac/workspace/C/EDAF15/MATLAB/fourmotz.m",
+		"/home/ludjac/workspace/C/EDAF15/python/fourmotz.py",
+		"/home/ludjac/workspace/MATLAB/MATLAB.bjorn/Assignment2comvis.m",
+		"/home/ludjac/workspace/HTML/Luddes Home/css/fullbg.css",
+		"/home/ludjac/workspace/HTML/Luddes Home/index.html",
+		"/home/ludjac/workspace/HTML/Luddes Home/css/main.css",
+		"/home/ludjac/workspace/MMKN30/sumo/SumoCarUni.java",
+		"/home/ludjac/workspace/Food/sallads",
+		"/home/ludjac/workspace/Food/Pesto-Vinegrette",
+		"/home/ludjac/workspace/MMKN30/sumo/RemoveObjects.java",
+		"/home/ludjac/workspace/MMKN30/sumo/SumoCarUni.class",
+		"/home/ludjac/workspace/MMKN30/sumo/upload.sh",
+		"/home/ludjac/workspace/MMKN30/sumo/SumoCar.java",
+		"/home/ludjac/workspace/MMKN30/nemo/LineCar.java",
+		"/home/ludjac/workspace/MMKN30/sumo/SumoCarSteer.java",
+		"/home/ludjac/workspace/MMKN30/nemo/upload.sh",
+		"/home/ludjac/workspace/C/FMNN15/MG_2D/mg_2d.c",
+		"/home/ludjac/workspace/C/FMNN15/MG_2D/J_TAN/140303/mg-2d_main.c",
+		"/home/ludjac/workspace/C/FMNN15/MG_2D/J_TAN/140303/mg_2d_MATLAB_gate.c",
+		"/home/ludjac/workspace/C/FMNN15/MG_2D/J_TAN/solve_generator.py",
+		"/home/ludjac/workspace/C/FMNN15/MG_2D/func.old.c",
+		"/home/ludjac/workspace/C/FMNN15/MG_2D/J_TAN/mg-2d_main.c",
+		"/home/ludjac/workspace/C/FMNN15/MG_1D/mg_1d_MATLAB_gate.c",
+		"/home/ludjac/workspace/C/FMNN15/MG_2D/J_TAN/140226_2300/mg-2d_main.c",
+		"/home/ludjac/workspace/MATLAB/FMA270/assignment4/CE1_1.dat",
+		"/home/ludjac/workspace/C/datasize.c",
+		"/home/ludjac/workspace/C/FMNN15/MG_2D/lu_solve31.h",
+		"/home/ludjac/workspace/C/FMNN15/MG_2D/J_TAN/lu_solve.h",
+		"/home/ludjac/workspace/C/FMNN15/MG_2D/conv2.old.c",
+		"/home/ludjac/workspace/C/FMNN15/MG_2D/mg_2d.h",
+		"/home/ludjac/workspace/C/FMNN15/MG_1D/mg_1d.c",
+		"/home/ludjac/workspace/C/FMNN15/MG_2D/mg_2d_MATLAB_gate.c",
+		"/home/ludjac/workspace/C/FMNN15/MG_2D/multigrid.h",
+		"/home/ludjac/Spotify/srm/index.html",
+		"/home/ludjac/Spotify/srm/scripts/main.js",
+		"/home/ludjac/workspace/MATLAB/MATLAB.bjorn/inFront.m",
+		"/home/ludjac/workspace/C/FMNN15/mg_1d.c",
+		"/home/ludjac/workspace/C/FMNN15/mg_1d_MATLAB_gate.c",
+		"/home/ludjac/workspace/C/FMNN15/luddefunc.c",
+		"/home/ludjac/workspace/MMKN30/nemo/nxt_line.java",
+		"/home/ludjac/workspace/C/FMNN15/helloworld.c",
+		"/home/ludjac/workspace/C/FMNN15/mg_1d_gate.c",
+		"/home/ludjac/.matlab/R2012a/mexopts.sh",
+		"/home/ludjac/workspace/C/FMNN15/MATLAB_out.txt",
+		"/home/ludjac/workspace/C/FMNN15/gridrestrict.c",
+		"/home/ludjac/workspace/C/FMNN15/sinx.txt",
+		"/home/ludjac/workspace/C/FMNN15/multigrid.h",
+		"/home/ludjac/workspace/MATLAB/FMA270/assignment2/img/CE3_3.tikz",
+		"/home/ludjac/workspace/MATLAB/FMA270/assignment2/CE1_2.tikz",
+		"/home/ludjac/workspace/MATLAB/FMA270/assignment2/CE1.tikz",
+		"/home/ludjac/workspace/MMKN30/sumo/features.txt",
+		"/home/ludjac/workspace/MMKN30/sumo/nxt_sumo.java",
+		"/home/ludjac/workspace/MMKN30/nxt_line/motorSettings.java",
+		"/home/ludjac/workspace/MMKN30/nxt_line/upload.sh",
+		"/home/ludjac/workspace/MMKN30/nxt_line/hello_baby.java",
+		"/home/ludjac/workspace/MMKN30/nxt_line/nxt_line.java",
+		"/home/ludjac/workspace/MMKN30/nxt_line/LineCar.java",
+		"/home/ludjac/workspace/C/FMNN15/LAPACK_test/makefile",
+		"/home/ludjac/workspace/C/FMNN15/LAPACK_test/lu.c",
+		"/home/ludjac/workspace/MMKN30/nxt_line/CarDisplay.java",
+		"/home/ludjac/workspace/MMKN30/hello_baby.java",
+		"/home/ludjac/workspace/MATLAB/MATLAB.bjorn/Assignment1comvis.m",
+		"/home/ludjac/workspace/C/lapack-3.5.0/lapacke/src/lapacke_dgetrf.c",
+		"/home/ludjac/workspace/C/lapack-3.5.0/SRC/ssptrf.f",
+		"/home/ludjac/workspace/C/lapack-3.5.0/SRC/ssptrf.o",
+		"/home/ludjac/workspace/MMKN30/nxt_line/nxt_line.nxj",
+		"/home/ludjac/workspace/MATLAB/FYTN06/exercise2/ex9_7Nodes_bound2.tikz",
+		"/home/ludjac/workspace/C/FMNN15/a.out",
+		"/home/ludjac/workspace/C/FMNN15/grid",
+		"/home/ludjac/workspace/C/FMNN15/temp.txt",
+		"/home/ludjac/workspace/MMKN30/test_hej.java",
+		"/home/ludjac/workspace/MMKN30/nxt_line/CarDisplay.",
+		"/home/ludjac/workspace/MMKN30/nxt_line/LineCar.",
+		"/home/ludjac/workspace/MMKN30/hello_surface.java",
+		"/home/ludjac/workspace/MMKN30/LineCar.java",
+		"/home/ludjac/workspace/MMKN30/nxt_line.java",
+		"/home/ludjac/workspace/MMKN30/linecar.java",
+		"/home/ludjac/workspace/MMKN30/hello_world.java",
+		"/home/ludjac/workspace/MMKN30/hej.java",
+		"/home/ludjac/workspace/MMKN30/hello_edge.java",
+		"/home/ludjac/workspace/MMKN30/motor_test.java",
+		"/home/ludjac/workspace/MATLAB/FYTN06/exercise2/datasets.m",
+		"/home/ludjac/workspace/MATLAB/FYTN06/exercise2/CompNet.m",
+		"/home/ludjac/workspace/MATLAB/FYTN06/exercise1/xor_mlp.m",
+		"/home/ludjac/workspace/python/FYTN06/neurnet/nets/dev.py",
+		"/home/ludjac/workspace/python/test.py",
+		"/home/ludjac/workspace/HTML/index.html",
+		"/home/ludjac/workspace/python/FYTN06/neurnet/nets/perceptron.py",
+		"/home/ludjac/workspace/python/FYTN06/neurnet/nets/__init__.py",
+		"/home/ludjac/vim.tmp",
+		"/home/ludjac/workspace/NLP/dec13/main.py",
+		"/home/ludjac/workspace/NLP/dec13/corpus.py",
+		"/home/ludjac/.config/sublime-text-2/Packages/Default/Default (Linux).sublime-keymap",
+		"/home/ludjac/.config/sublime-text-2/Packages/User/Default (Linux).sublime-keymap",
+		"/home/ludjac/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"SumoCarUni",
+			"wron",
+			"lSpeed",
+			"rValue",
+			"rSpeed",
+			"lSpeed",
+			"this",
+			"t",
+			"(!",
+			"l",
+			"lMean-rMean",
+			"diffR",
+			"diff",
+			"printf",
+			"*t2",
+			"conv",
+			"vecsub2",
+			" ",
+			"g->g",
+			"\n//",
+			"\n",
+			"\\\\",
+			"    ",
+			"     ",
+			"    ",
+			"     ",
+			"\n",
+			"2238",
+			"\n",
+			"    ",
+			"\n",
+			"    ",
+			"     ",
+			"    ",
+			"   ",
+			"\n",
+			" ",
+			"4.",
+			" ",
+			"3.",
+			" ",
+			"2.",
+			" ",
+			" 1 \\",
+			" 1 ",
+			" ",
+			" 1 ",
+			"9d",
+			" 1 ",
+			"1.",
+			" ",
+			" 1 ",
+			" 1 1 ",
+			" 1 ",
+			" ",
+			"0.",
+			"g->f",
+			"\n",
+			"	",
+			"-",
+			"\n-",
+			"0",
+			"\n",
+			"g->",
+			"RIGHT",
+			"RangeFeatureDetector",
+			"count",
+			"whiletime",
+			"angle",
+			"l_speed",
+			"public",
+			"LightSensor",
+			"public LightSensor",
+			"public ",
+			"prevState",
+			"currentState",
+			"stateCount",
+			"lineBlack",
+			"//",
+			"g",
+			"	//g",
+			"//",
+			"printf",
+			"n",
+			"	",
+			"  ",
+			"printf",
+			");\n",
+			">",
+			"\n",
+			"    ",
+			"x",
+			"\n",
+			"   ",
+			"    ",
+			"pow_t",
+			"= 0",
+			"r",
+			"this.count",
+			"this",
+			"this.i",
+			"i",
+			"LCD",
+			"state",
+			"State",
+			"state",
+			"State",
+			"state",
+			"State",
+			"state",
+			"State",
+			"disp",
+			");",
+			"< ",
+			"drawString",
+			"//",
+			"float",
+			" *",
+			"*",
+			" *",
+			"};\n\\addplot3 [\ncolor=blue,\nline width=2.0pt,\nonly marks,\nmark=asterisk,\nmark options={solid}]\ntable[row sep=crcr] {\n",
+			"};\n\\addplot3 [\ncolor=blue,\nline width=2.0pt,\nonly marks,\nmark=+,\nmark options={solid}]\ntable[row sep=crcr] {\n",
+			"};\n\\addplot [\ncolor=red,\nline width=2.0pt,\nmark size=0.8pt,\nonly marks,\nmark=*,\nmark options={solid},\nforget plot\n]\ntable[row sep=crcr]{\n",
+			"\n",
+			"d",
+			"};\n\\addplot [\ncolor=red,\nline width=2.0pt,\nmark size=0.8pt,\nonly marks,\nmark=*,\nmark options={solid},\nforget plot\n]\ntable[row sep=crcr]{",
+			"000000",
+			"							"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"conv2",
+			"vecsub",
+			"pt_org",
+			"",
+			"\\\\"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "python/fourmotz.py",
+					"settings":
+					{
+						"buffer_size": 523,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								41,
+								41
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "fourmotz.pseudo",
+					"settings":
+					{
+						"buffer_size": 601,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								396,
+								396
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 15.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "MATLAB/fourmotz.m",
+					"settings":
+					{
+						"buffer_size": 2318,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								908,
+								908
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Matlab/Matlab.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 250.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "MATLAB/reduce_rows.m",
+					"settings":
+					{
+						"buffer_size": 2677,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2677,
+								2677
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Matlab/Matlab.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 116.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 158.0,
+	"status_bar_visible": true
+}
