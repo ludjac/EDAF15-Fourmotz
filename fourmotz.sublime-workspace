@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"sor",
+				"sorted"
+			],
+			[
+				"row",
+				"row_divide"
+			],
+			[
+				"n_",
+				"n_neg"
+			],
+			[
+				"sort",
+				"sort_value"
+			],
+			[
 				"font",
 				"font-weight"
 			],
@@ -431,44 +447,6 @@
 	},
 	"buffers":
 	[
-		{
-			"contents": "# Fourmotz PYTHON\nimport numpy as N\n\ndef \n\ndef fourmotz(A, c):\n	\"\"\"\n\n	\"\"\"\n	assert type(A) is N.ndarray\n	assert type(c) is N.ndarray\n\n	r, s = A.shape\n	T = N.hstack([A, c])\n	print T\n	# Eliminating first column variable\n	T = N.array(map(lambda row: row/row[0], T))\n	print T\n	#print T[T[:,0].argsort(), :]\n	#	\n	# print sorted([t] for t in T,  key=lambda x: x[0])\n	#	a = sorted(T, key=lambda x: x[0])\n	#	print a\n\n	pass\n\nif __name__ == '__main__':\n	A = N.array([[2.0, -11.0], [-3.0, 2.0], [1.0, 2.0], [0.0, 0.0]])\n	fourmotz(A, A)",
-			"file": "python/fourmotz.py",
-			"file_size": 517,
-			"file_write_time": 1395690184000000,
-			"settings":
-			{
-				"buffer_size": 523,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "def fourmotz(A, c):			# Ax <= c\n#	1. Copy to temp variables\nr, s = m, n\nt, q = A, c\n#	2. Sort & count according to eliminiation variable (r) column \nt, q = sort(t, t(:, r)) # >0, <0, =0\nn1 = sum(t(:,r)>0) # Number of pos ineq's\nn2 = sum(t(:,r)<0) # Number of neg ineq's\n#	3. Normalize x_r for all rows\nfor i in xrange(n2):\n	t(i, :) = t(i,:)/t(i, r)\n	q(i) = q(i)/T(i, r)\n\n#	4. Construct b_r & B_r\n\nif n2>n1:\n	b_r = max(sum())\nelse:\n	b(_x_) = -Inf\nif npos>0:\n	B(_x_) = min(Positive ineq's)\nelse:\n	B(_x_) = Inf\n5.  \nif r>1: GOTO 6\nelse:	\n	if: b>B || (b<0 && B>0) NO SOLUTION\n	else: SOLUTION is: b<x<B\n6. ",
-			"file": "fourmotz.pseudo",
-			"file_size": 421,
-			"file_write_time": 1395404079000000,
-			"settings":
-			{
-				"buffer_size": 601,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "MATLAB/fourmotz.m",
-			"settings":
-			{
-				"buffer_size": 2318,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "MATLAB/reduce_rows.m",
-			"settings":
-			{
-				"buffer_size": 2677,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -506,6 +484,10 @@
 	},
 	"file_history":
 	[
+		"/home/ludjac/workspace/C/EDAF15/EDAF15-Fourmotz/fourmotz.pseudo",
+		"/home/ludjac/workspace/C/EDAF15/EDAF15-Fourmotz/MATLAB/fourmotz.m",
+		"/home/ludjac/workspace/C/EDAF15/EDAF15-Fourmotz/MATLAB/reduce_rows.m",
+		"/home/ludjac/workspace/C/EDAF15/EDAF15-Fourmotz/python/fourmotz.py",
 		"/home/ludjac/.config/sublime-text-2/Packages/IndentGuides/Indent Guides.sublime-settings",
 		"/home/ludjac/.config/sublime-text-2/Packages/IndentGuides/indent_guides.py",
 		"/home/ludjac/workspace/C/EDAF15/pseudocode.pc",
@@ -773,117 +755,8 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "python/fourmotz.py",
-					"settings":
-					{
-						"buffer_size": 523,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								41,
-								41
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "fourmotz.pseudo",
-					"settings":
-					{
-						"buffer_size": 601,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								396,
-								396
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 15.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "MATLAB/fourmotz.m",
-					"settings":
-					{
-						"buffer_size": 2318,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								908,
-								908
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Matlab/Matlab.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 250.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "MATLAB/reduce_rows.m",
-					"settings":
-					{
-						"buffer_size": 2677,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2677,
-								2677
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Matlab/Matlab.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 116.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],

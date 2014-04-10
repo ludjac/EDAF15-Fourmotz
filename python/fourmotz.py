@@ -61,33 +61,15 @@ def four_motz(A, c, el_var):
 	s = s - n_neg + n_pos*(n_neg - n_pos)
 	r = r - 1
 
-
 	A = N.zeros((s, r))
-	print n_pos, n_neg
 
-#	print T[n_neg:, :]
-
-#	print A
 	for i in xrange(n_pos):
-		if 0:
-			print i
-			print n_neg-n_pos
-			print A[i*(n_neg - n_pos):(i+1)*(n_neg - n_pos), :]
-			print ""
-			print T[i, 1:]*N.ones([n_neg-n_pos, n_pos])
-			print ""
-			print T[n_pos:n_neg,1:]
 		A[i*(n_neg - n_pos):(i+1)*(n_neg - n_pos), :] = T[i,1:]*N.ones([n_neg-n_pos, r])+T[n_pos:n_neg,1:]
-
 
 	A[n_pos*(n_neg - n_pos):, :] = T[n_neg:, 1:]
 
-
 	A = N.array(sorted(A, key=lambda x: sort_value(x[0])))
 
-	print A
-	print N.array(map(lambda x: x/x[0], A))
-	print N.array(sorted(A, key=lambda x: x[0]))
 
 if __name__ == '__main__':
 	A = N.array([[2.0, -11.0], [-3.0, 2.0], [1.0, 2.0], [-2.0, 1.0],[-4.0, 3.0], [0.0, 1.0], [0.0, 2.0]])

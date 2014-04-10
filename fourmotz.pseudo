@@ -1,24 +1,29 @@
-	To eliminate x_r
-	1. Copy to temp variables
-		r, s = m, n
+def fourmotz(A, c):			# Ax <= c
+#	1. Copy to temp variables
+r, s = m, n
+t, q = A, c
+#	2. Sort & count according to eliminiation variable (r) column 
+t, q = sort(t, t(:, r)) # >0, <0, =0
+n1 = sum(t(:,r)>0) # Number of pos ineq's
+n2 = sum(t(:,r)<0) # Number of neg ineq's
+#	3. Normalize x_r for all rows
+for i in xrange(n2):
+	t(i, :) = t(i,:)/t(i, r)
+	q(i) = q(i)/T(i, r)
 
-	2. Arrange 	* Positive 	(sum = npos)
-				* Negative 	(sum = nneg)
-				* Zero		(sum = nzer)
+#	4. Construct b_r & B_r
 
-	3. Normalize x_r for all rows
-	4. 
-	if nneg>0:
-		b(_x_) = max(Negative ineq's)
-	else:
-		b(_x_) = -Inf
-	if npos>0:
-		B(_x_) = min(Positive ineq's)
-	else:
-		B(_x_) = Inf
-	5.  
-	if r>1: GOTO 6
-	else:	
-		if: b>B || (b<0 && B>0) NO SOLUTION
-		else: SOLUTION is: b<x<B
-	6. 
+if n2>n1:
+	b_r = max(sum())
+else:
+	b(_x_) = -Inf
+if npos>0:
+	B(_x_) = min(Positive ineq's)
+else:
+	B(_x_) = Inf
+5.  
+if r>1: GOTO 6
+else:	
+	if: b>B || (b<0 && B>0) NO SOLUTION
+	else: SOLUTION is: b<x<B
+6. 
